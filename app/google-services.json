@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626822887693",
+    "firebase_url": "https://testbarang-c7092.firebaseio.com",
+    "project_id": "testbarang-c7092",
+    "storage_bucket": "testbarang-c7092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626822887693:android:9cc153a7f128a90006d844",
+        "android_client_info": {
+          "package_name": "com.elvira.testbarang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626822887693-53uv2vbcam2pa4enl31oheqq0o8m6a6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATYvnALkj6hyh8WK1gh_JeKBYh-h0cgk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626822887693-53uv2vbcam2pa4enl31oheqq0o8m6a6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
