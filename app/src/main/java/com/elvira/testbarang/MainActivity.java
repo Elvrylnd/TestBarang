@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.elvira.testbarang.R;
-
 public class MainActivity extends AppCompatActivity {
     private Button bTambah;
     private Button bLihat;
@@ -23,23 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
         bTambah.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 startActivity(TambahData.getActIntent(MainActivity.this));
             }
         });
-        bLihat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View V) {
 
-            }
-        });
         bLihat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(LihatBarang.getActIntent(MainActivity.this));
             }
         });
-
     }
 }
-
